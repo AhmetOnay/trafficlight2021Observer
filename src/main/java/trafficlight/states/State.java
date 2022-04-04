@@ -1,8 +1,10 @@
 package trafficlight.states;
 
-//TODO implement a part of the pattern here
+import trafficlight.Subject;
 
-public abstract class State {
+//TODO implement a part of the pattern here
+//subject
+public abstract class State extends Subject {
 
     public abstract State getNextState();
 
@@ -11,4 +13,5 @@ public abstract class State {
     public String getSting(){
         return getColor();
     }
+
 }
