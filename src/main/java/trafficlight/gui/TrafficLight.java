@@ -4,7 +4,6 @@ package trafficlight.gui;
 import trafficlight.Observer;
 
 import java.awt.*;
-//Observer : der den Zustand realisiert
 public class TrafficLight extends Light implements Observer {
 
     TrafficLight(Color color) {
