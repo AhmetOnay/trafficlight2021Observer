@@ -24,5 +24,5 @@ public class TrafficLight extends Light implements Observer {
        turnOn(!isOn());
     }
 
-    //TODO implement a part of the pattern here
+    //TODO DONE
 }
